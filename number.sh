@@ -4,4 +4,4 @@
 
 a=seshanandaaaa
 
-grep -F "s" << '$a' | wc -l
+grep -F "s" << "$a" | wc -l
