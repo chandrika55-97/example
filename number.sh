@@ -2,6 +2,6 @@
 
 # in one word or name in that that find perticulat letter
 
-a=seshananda
+a=seshanandaaaa
 
 grep "s" << "$a" | wc l
