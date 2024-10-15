@@ -2,7 +2,7 @@
 
 # Check if a file is provided
 if [ $# -ne 1 ]; then
-    echo "Usage: $0 <script_file>"
+    echo "Usage: $0 top-words.sh"
     exit 1
 fi
 
