@@ -1,12 +1,34 @@
 #!/bin/bash
 echo "hello 
-world 
-chandu
-nandu
-ramu
-hello
-hello
-ramu
-nandu
-chaithu
-world "
+        world 
+        chandu
+        Business
+        API
+        Data
+        nandu
+        ramu
+        Business
+        API
+        Data
+        hello
+        Business
+        API
+        Data
+        hello
+        ramu
+        nandu
+        chaithu
+        world 
+        Science
+        Professional
+        Business
+        API
+        Data
+        API
+        API
+        API
+        API
+        API
+        API
+        API
+        API"
