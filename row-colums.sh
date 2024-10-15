@@ -15,8 +15,9 @@ END {
         }
         printf "\n"
     }
-}' data.txt
+}' row-colums.sh
 
 echo -e "\nConverting Columns to Rows:"
 # Convert Columns to Rows
-awk '{for(i=1;i<=NF;i++) print $i}' data.txt
+awk '{for(i=1;i<=NF;i++) print $i}' row-colums.sh
+
