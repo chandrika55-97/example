@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name age
+echo "name age
 alice 21
-ryan 30
+ryan 30"
 
