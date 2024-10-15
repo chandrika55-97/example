@@ -1,8 +1,5 @@
 #!/bin/bash
-echo "
-hello
-world
-chandu
+echo "hello world chandu
 nandu
 ramu
 hello
