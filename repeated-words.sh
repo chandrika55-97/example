@@ -8,39 +8,40 @@
 #              1         Professional
 #              1         Science
 
-echo   "hello 
-        world 
-        chandu
-        Business
-        API
-        Data
-        nandu
-        ramu
-        Business
-        API
-        Data
-        hello
-        Business
-        API
-        Data
-        hello
-        ramu
-        nandu
-        chaithu
-        world 
-        Science
-        Professional
-        Business
-        API
-        Data
-        API
-        API
-        API
-        API
-        API
-        API
-        API
-        API
-        API"
+echo "hello
+world 
+chandu
+Business
+API
+Data
+nandu
+ramu
+Business
+API
+Data
+hello
+Business
+API
+Data
+hello
+ramu
+nandu
+chaithu
+world 
+Science
+Professional
+Business
+API
+Data
+API
+API
+API
+API
+API
+API
+API
+API
+API" 
+        
 
     
