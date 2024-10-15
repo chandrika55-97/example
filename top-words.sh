@@ -1,13 +1,22 @@
 #!/bin/bash
 
-# Check if a file is provided
-if [ $# -ne 1 ]; then
-    echo "Usage: $0 top-words.sh"
-    exit 1
-fi
+# Convert Rows to Columns
+echo "Converting Rows to Columns:"
+awk '
+{
+    for (i = 1; i <= NF; i++) {
+        data[i, NR] = $i
+    }
+}
+END {
+    for (i = 1; i <= NF; i++) {
+        for (j = 1; j <= NR; j++) {
+            printf "%s ", data[i, j]
+        }
+        printf "\n"
+    }
+}' data.txt
 
-# Get the input file
-input_file=$1
-
-# Display the top 5 repeated words
-cat "$input_file" | tr -s '[:space:]' '\n' | sort | uniq -c | sort -nr | head -n 5
+echo -e "\nConverting Columns to Rows:"
+# Convert Columns to Rows
+awk '{for(i=1;i<=NF;i++) print $i}' data.txt
