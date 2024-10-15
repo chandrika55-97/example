@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "
 hello
 world
 chandu
@@ -10,4 +10,4 @@ hello
 ramu
 nandu
 chaithu
-world
+world "
