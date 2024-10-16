@@ -1,7 +1,22 @@
-<student>
+<students>
+    <student>
+    
+        <name>chandrika</name>
+        <address>anatapur</adress>
+        <numbers>
+            <number>9988776655</number>
+            <number>1234567890</number>
+        </numbers>    
 
-    <name>chandrika</name>
-    <address>anatapur</adress>
-    <num>9988776655</num>
+    </student>
+    <student>
 
-</student>
+        <name>sesha</name>
+        <address>hyderabad</adress>
+        <numbers>
+            <number>9988776655</number>
+            <number>1234567890</number>
+        </numbers>
+    </student>
+</students>
+
