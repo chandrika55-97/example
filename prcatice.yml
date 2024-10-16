@@ -12,15 +12,15 @@
     addressline1: street1
     addressline2: atp
 
-- Name: sesha
-  email: bbbb@gmail.com
-  addresses:
-  - type: perm
-    address1: nagar3
-    address2: bng
-  - type:
-     address: street2
-     address: gooty
+# - Name: sesha
+#   email: bbbb@gmail.com
+#   addresses:
+#   - type: perm
+#     address1: nagar3
+#     address2: bng
+#   - type:
+#      address: street2
+#      address: gooty
 
     ansible.builtin.debug.
   msg "hi, i am {{name}}, came from {{addresses}}"
