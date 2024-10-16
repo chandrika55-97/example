@@ -23,4 +23,4 @@
 #      address: gooty
 
     ansible.builtin.debug:
-  msg "hi, i am {{name}}, came from {{addresses}}"
+  msg "hi, i am {{Name}}, came from {{Email}}"
