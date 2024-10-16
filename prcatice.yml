@@ -1,0 +1,26 @@
+# YAML works on indentation, means space
+
+
+- Name: chandrika
+  hosts: 172.31.32.79
+  Email: aaa@gmail.com
+  Addresses: #list of address
+  - type: perm
+    addressline1: nagar4
+    addressline2: hyd
+  - type: current
+    addressline1: street1
+    addressline2: atp
+
+- Name: sesha
+  email: bbbb@gmail.com
+  addresses:
+  - type: perm
+    address1: nagar3
+    address2: bng
+  - type:
+     address: street2
+     address: gooty
+
+    ansible.builtin.debug.
+  msg "hi, i am {{name}}, came from {{addresses}}"
