@@ -1,6 +1,6 @@
 <students>
-    <student>
-    
+    <student1>
+
         <name>chandrika</name>
         <address>anatapur</adress>
         <numbers>
@@ -8,8 +8,8 @@
             <number>1234567890</number>
         </numbers>    
 
-    </student>
-    <student>
+    </student1>
+    <student2>
 
         <name>sesha</name>
         <address>hyderabad</adress>
@@ -17,6 +17,38 @@
             <number>9988776655</number>
             <number>1234567890</number>
         </numbers>
-    </student>
+    </student2>
+    <Student3>
+        <Name>sivakumar</Name>
+        <Email>info@joindevops.com</Email>
+        <Addresses>
+            <PermAddress>
+                <AddressLine1>marathalli</AddressLine1>
+                <AddressLine2>beml layou</AddressLine2>
+                <Street>vivekananda street</Street>
+            </PermAddress>
+            <CurrentAddress>
+                <AddressLine1>marathalli</AddressLine1>
+                <AddressLine2>beml layou</AddressLine2>
+                <Street>vivekananda street</Street>
+            </CurrentAddress>
+        </Addresses>
+    </Student3>
+    <Student4>
+        <Name>sivakumar</Name>
+        <Email>info@joindevops.com</Email>
+        <Addresses>
+            <PermAddress>
+                <AddressLine1>marathalli</AddressLine1>
+                <AddressLine2>beml layou</AddressLine2>
+                <Street>vivekananda street</Street>
+            </PermAddress>
+            <CurrentAddress>
+                <AddressLine1>marathalli</AddressLine1>
+                <AddressLine2>beml layou</AddressLine2>
+                <Street>vivekananda street</Street>
+            </CurrentAddress>
+        </Addresses>
+    </Student4>
 </students>
 
